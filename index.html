@@ -16,31 +16,31 @@
   </head>
   <body>
     <header></header>
-    <main class="bg-warning d-flex align-content-center">
+    <main class="bg-success d-flex align-content-center">
         <section class="container my-5">
             <article class="text-center my-5">
-                <h1 class="col-12">Adivina el Numero</h1>
+                <h1 class="col-12 text-light">¡Adivina el Numero!</h1>
             </article>
                 <div class="row justify-content-center my-3">
-                  <article class="col-4 mb-3">
+                  <article class="col-12 col-md-6 mb-3">
                     <div class="card shadow h-100 w-100">
                       <div class="card-body text-center">
-                        <i class="bi bi-dice-6-fill fs-1"></i>
-                        <h5 class="card-title">Tu Numero</h5>
-                        <form>
-                            <div class="my-4">
+                        <i class="bi bi-dice-6-fill fs-1 text-dark"></i>
+                        <h3 class="card-title">Tu Numero</h3>
+                        <form class="row justify-content-center">
+                            <div class="my-4 col-12 w-75">
                               <input
                                 type="number"
                                 id="number"
                                 class="form-control"
                                 minlength="1"
-                                maxlength="20"
-                                min="0"
-                                max="20"
+                                maxlength="6"
+                                min="1"
+                                max="6"
                               />
                             </div>
                             <div>
-                              <button class="btn btn-dark" type="submit">Enviar</button>
+                              <button class="btn btn-dark w-50 col-12" type="submit">Enviar</button>
                             </div>
                           </form>
                       </div>
