@@ -26,48 +26,21 @@
                     <div class="card shadow h-100 w-100">
                       <div class="card-body text-center">
                         <i class="bi bi-dice-6-fill fs-1"></i>
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Tu Numero</h5>
                         <form>
-                            <div class="mb-3">
-                              <label for="name" class="form-label">Nombre y Apellido *</label>
-                              <input type="text" class="form-control" id="name" aria-describedby="name" required placeholder="Ej: Juan Perez" minlength="3" maxlength="200">
-                            </div>
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email *</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="juanperez@mail.com" minlength="5" maxlength="300">
-                            </div>
-                            <div class="mb-3">
-                              <label for="telefono">Teléfono</label>
-                            </div>
-                            <div class="mb-3">
+                            <div class="my-4">
                               <input
-                                type="tel"
-                                id="telefono"
-                                placeholder="Ej: 3815333000"
+                                type="number"
+                                id="number"
                                 class="form-control"
-                                minlength="5"
-                                maxlength="40"
+                                minlength="1"
+                                maxlength="20"
+                                min="0"
+                                max="20"
                               />
                             </div>
-                            <div class="mb-3">
-                              <label for="consulta">Ingrese su consulta</label>
-                            </div>
-                            <div class="mb-3">
-                              <textarea
-                                id="consulta"
-                                rows="4"
-                                placeholder="agregue aquí su consulta"
-                                minlength="10"
-                                maxlength="250"
-                                required
-                                class="form-control"
-                              ></textarea>
-                            </div>
                             <div>
-                              <p class="fs-6 text-body-tertiary">Los campos con (*) son obligatorios</p>
-                            </div>
-                            <div>
-                              <button class="btn btn-primary" type="submit">Enviar</button>
+                              <button class="btn btn-dark" type="submit">Enviar</button>
                             </div>
                           </form>
                       </div>
