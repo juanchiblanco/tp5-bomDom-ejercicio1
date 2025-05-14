@@ -1,8 +1,6 @@
 const adivinarNumero = (e)=>{
     e.preventDefault();
     const numero = document.getElementById('number').value
-    console.log(numero)
-    console.log(randomNumber)
     if(numero==randomNumber){alert('Acertaste!')}
     else if(numero>randomNumber){alert('Te pasaste, es mas bajo')}
     else if(numero<randomNumber){alert('Te falto, es mas alto')}
