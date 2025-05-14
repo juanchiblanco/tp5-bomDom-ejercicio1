@@ -1,9 +1,9 @@
 const adivinarNumero = (e)=>{
     e.preventDefault();
     const numero = document.getElementById('number').value
-    if(numero==randomNumber){alert('Acertaste!')}
-    else if(numero>randomNumber){alert('Te pasaste, es mas bajo')}
-    else if(numero<randomNumber){alert('Te falto, es mas alto')}
+    if(numero==randomNumber){alert('¡Acertaste!')}
+    else if(numero>randomNumber){alert('Te pasaste, es mas bajo.')}
+    else if(numero<randomNumber){alert('Te faltó, es mas alto.')}
 }
 
 const randomNumber = Math.floor(Math.random() * 6) + 1
